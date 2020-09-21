@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/firmanJS/belajar-go-dasar/v2/package/config/config"
+	"github.com/firmanJS/belajar-go-dasar/v2/package/config"
 )
 
 func main() {
