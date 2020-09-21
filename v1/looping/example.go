@@ -14,12 +14,27 @@ import "fmt"
 
 
 //deret angka
-func main(){
-	total := 0
+// func main(){
+// 	total := 0
 
-	for num := 1; num <= 100; num++ {
-		total = total + num
+// 	for num := 1; num <= 100; num++ {
+// 		total = total + num
+// 	}
+
+// 	fmt.Println("Total ",total)
+// }
+
+// infinite loop
+
+func main() {
+	x := 1
+
+	for {
+		x++
+		fmt.Printf("hello %d\n", x)
+
+		if x == 10 {
+			break
+		}
 	}
-
-	fmt.Println("Total ",total)
 }
